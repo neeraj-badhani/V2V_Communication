@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp
+"lcd_bare\startup_stm32f411xe.o"
+"lcd_bare\main.o"
+"lcd_bare\stm32f4xx_it.o"
+"lcd_bare\stm32f4xx_hal_msp.o"
+"lcd_bare\stm32f4xx_hal_i2c.o"
+"lcd_bare\stm32f4xx_hal_i2c_ex.o"
+"lcd_bare\stm32f4xx_hal_tim.o"
+"lcd_bare\stm32f4xx_hal_tim_ex.o"
+"lcd_bare\stm32f4xx_hal_uart.o"
+"lcd_bare\stm32f4xx_hal_rcc.o"
+"lcd_bare\stm32f4xx_hal_rcc_ex.o"
+"lcd_bare\stm32f4xx_hal_flash.o"
+"lcd_bare\stm32f4xx_hal_flash_ex.o"
+"lcd_bare\stm32f4xx_hal_flash_ramfunc.o"
+"lcd_bare\stm32f4xx_hal_gpio.o"
+"lcd_bare\stm32f4xx_hal_dma_ex.o"
+"lcd_bare\stm32f4xx_hal_dma.o"
+"lcd_bare\stm32f4xx_hal_pwr.o"
+"lcd_bare\stm32f4xx_hal_pwr_ex.o"
+"lcd_bare\stm32f4xx_hal_cortex.o"
+"lcd_bare\stm32f4xx_hal.o"
+"lcd_bare\stm32f4xx_hal_exti.o"
+"lcd_bare\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "LCD_Bare\LCD_Bare.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LCD_Bare.map" -o LCD_Bare\LCD_Bare.axf
