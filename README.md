@@ -20,8 +20,11 @@ Transmitter Configuration:
 4. Setup network protocol(UDP or TCP/IP).
 5. Serial reading from Rx pin connected to tx pin of STM32 board.
 6. If data is avaliable start UDP Transmission.
+
 Receiver Configuration:
 1. Search avaliable network within range and connect.
 2. Read the data and store it in a buffer.
 3. Transmit reaceived data to LCD Display.
 
+
+RESULT/SIMULATION
