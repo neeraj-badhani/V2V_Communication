@@ -1,4 +1,4 @@
-# V2V_Communication
+# V2V_Communication Vehical to Vehical Communication
 The Dramatic increase in the traffic flow raises demand on innovative technologies that can improve
 safety and efficiency of transportation systems. Road safety can be substantially enhanced by the
 deployment of wireless communication technologies for vehicular networks, which enable new services
@@ -25,6 +25,3 @@ Receiver Configuration:
 1. Search avaliable network within range and connect.
 2. Read the data and store it in a buffer.
 3. Transmit reaceived data to LCD Display.
-
-
-RESULT/SIMULATION
