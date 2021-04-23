@@ -1,4 +1,4 @@
-# V2V_Communication Vehical to Vehical Communication
+# V2V_Communication (Vehical to Vehical Communication)
 The Dramatic increase in the traffic flow raises demand on innovative technologies that can improve
 safety and efficiency of transportation systems. Road safety can be substantially enhanced by the
 deployment of wireless communication technologies for vehicular networks, which enable new services
